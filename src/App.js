@@ -10,7 +10,7 @@ function App() {
         <span className="title">Dictionary</span>
       </header>
       <main>
-        <Dictionary />
+        <Dictionary defaultKeyword="happy" />
       </main>
       <p>Coded by Nicole Jones</p>
     </div>
