@@ -10,7 +10,11 @@ export default function Photos(props) {
             return (
               <div className="col-4" key={index}>
                 <a href={photo.src.original} target="blank">
-                  <img src={photo.src.landscape} className="img-fluid" />{" "}
+                  <img
+                    src={photo.src.landscape}
+                    className="img-fluid"
+                    alt="image desciption"
+                  />{" "}
                 </a>
               </div>
             );
